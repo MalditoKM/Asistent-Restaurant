@@ -1,0 +1,8 @@
+{
+  "schema": "./src/lib/server/db/schema.ts",
+  "dialect": "mysql",
+  "dbCredentials": {
+    "url": "${DATABASE_URL}"
+  },
+  "tablesFilter": ["restaurante_simple_*"]
+}
